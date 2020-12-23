@@ -1,0 +1,61 @@
+/* CSS RESETS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.8rem;
+}
+a{
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px 22px;
+    border-radius: 6px;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+
+}
+button{
+    border: 0;
+    cursor: pointer;
+}
+.header{
+    max-width: 2000px;
+    margin: auto;
+}
+ol, ul{
+    list-style: none;
+}
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.596);
+}

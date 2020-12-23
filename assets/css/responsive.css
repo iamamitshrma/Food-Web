@@ -1,0 +1,132 @@
+/* FOR MOBILE  */
+@media all and (min-width: 360px){
+    body{
+        font-size: 1.3rem;
+    }
+    .container{
+        margin: 0 20px;
+    }
+    .header{
+        padding: 3px 9px;
+    }
+    .header .logo{
+        width: 35px;
+        height: 35px;
+    }
+    .social-image{
+        padding: 40px;
+    }
+}
+/* FOR TABLET-PORTRAIT */
+@media all and (min-width: 768px){
+    body{
+        font-size: 1.4rem;
+    }
+    .header .logo{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    .navbar ul{
+        justify-content: space-evenly;
+    }
+
+
+    .container{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .home-wrap h1, .home-wrap p, .home-wrap a{
+        position: static;
+    }
+    .home-wrap p{
+        margin-bottom: 20px;
+    }
+    .home{
+        position: relative;
+    }
+    .home .container{
+        position: absolute;
+        top: 190px;
+        left: 0;
+        right: 0;
+    }
+
+}
+/* FOR TABLET-LANDSCAPE */
+@media all and (min-width: 1024px){
+    body{
+        font-size: 1.5rem;
+    }
+    .header{
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 0 5px 15px;  
+
+      
+    }
+    .header .logo{
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+    .navbar li{
+        padding: 5px 20px;
+    }
+    .navbar a{
+        border-radius: 10px;
+        padding: 5px 20px;
+    }
+    .navbar a:hover{
+        background-color: white;
+        color: black;
+    }
+    .home .container {
+        top: 300px;  
+    }
+
+
+
+    .container{
+        max-width: 75%;
+    }
+    .services-container{
+        margin: 60px 0;
+    }
+    .services-container .all-boxes{
+        display: flex;
+    }
+    .services-container .box{
+        margin: 0 10px 0 0;
+    }
+    .all-boxes >:last-child{
+        margin: 0;
+    }
+
+
+
+    .social-image{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .social-image a{
+        display: block;
+        margin: 20px 0;
+    }
+    .social-image img{
+        height: 50px;
+        
+    }
+
+
+}
+/* FOR DESKTOP */
+@media all and (min-width: 1200px){
+    .container{
+        max-width: 80%;
+    }
+
+}
